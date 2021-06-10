@@ -4,6 +4,14 @@ Recent advancements in pretraining strategies in NLP have shown a significant im
 
 For a detailed description and experimental results, please refer to our paper [BioELECTRA:Pretrained Biomedical text Encoder using Discriminators](https://www.aclweb.org/anthology/2021.bionlp-1.16/).
 
+### Pretraining
+
+![alt text](electra_pretraining.png)
+
+### Finetuning
+
+![alt text](electra_finetuning.png)
+
 # Models
 
 
@@ -12,3 +20,14 @@ For a detailed description and experimental results, please refer to our paper [
 | BioELECTRA-base-discriminator-PubMed        | Pretrained on PubMed                         | https://huggingface.co/kamalkraj/bioelectra-base-discriminator-pubmed        |
 | BioELECTRA-base-discriminator-PubMed-PMC    | Pretrained on PubMed and PMC                 | https://huggingface.co/kamalkraj/bioelectra-base-discriminator-pubmed-pmc    |
 | BioELECTRA-base-discriminator-PubMed-PMC-LT | Pretrained on PubMed and PMC Longer Training | https://huggingface.co/kamalkraj/bioelectra-base-discriminator-pubmed-pmc-lt |
+
+
+# Code
+
+Model pretrainig and finetuning is done using the code opensourced by [electra](https://github.com/google-research/electra) authors.
+Code used for BioELECTRA model training and finetuning - [here](https://github.com/kamalkraj/electra)
+
+PubMed data download for pretraining is used from [NVIDIA/DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples/tree/master/TensorFlow/LanguageModeling/BERT/biobert)
+
+All the experiments are done gcloud TPU-V3-8 instance and n2-highmem-2 (2 vCPUs, 16 GB memory)
+This research was supported by Google’s TensorFlow Research Cloud (TFRC).
