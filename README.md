@@ -30,6 +30,6 @@ PubMed data download script for pretraining is used from [NVIDIA/DeepLearningExa
 
 ![alt text](electra_finetuning.png)
 
-All the experiments are done gcloud TPU-V3-8 instance and n2-highmem-2 (2 vCPUs, 16 GB memory).
+All the experiments are done using gcloud TPU-V3-8 instance and n2-highmem-2 (2 vCPUs, 16 GB memory).
 
 This research was supported by Google’s TensorFlow Research Cloud (TFRC).
