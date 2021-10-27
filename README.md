@@ -25,6 +25,8 @@ Code used for BioELECTRA model training and finetuning - [here](https://github.c
 
 PubMed data download script for pretraining is used from [NVIDIA/DeepLearningExamples](https://github.com/NVIDIA/DeepLearningExamples/tree/master/TensorFlow/LanguageModeling/BERT/biobert)
 
+Code for Downloading and Preprocessing PubMed Abstracts [here](https://github.com/kamalkraj/BioNLP-Corpus)
+
 
 ### Finetuning
 
